@@ -94,18 +94,15 @@ nav ul li a:hover {
 /*-------------------Hamburger Menu------------------------------*/
 /*---------------------------------------------------------------*/
 
-/* Hamburger menu button styles */
 .menu-toggle {
     color: #fff;
-    display: none; /* Initially hidden on larger screens */
+    display: none;
     padding: 10px;
     border: none;
     background-color: transparent;
     cursor: pointer;
 }
 
-
-/* Hide the navigation menu initially on larger screens */
 .hamburger-nav {
     display: none;
     list-style: none;
@@ -113,7 +110,6 @@ nav ul li a:hover {
     margin: 0;
 }
 
-/* Navigation link styles */
 .hamburger-nav a {
     display: block;
     padding: 10px;
@@ -128,7 +124,6 @@ nav ul li a:hover {
  }
 
 
-/* Show the navigation menu on smaller screens */
 @media (max-width: 768px) {
     .main-nav {
         display: none;
@@ -183,6 +178,7 @@ nav ul li a:hover {
 
 
 .stats {
+    margin-top: 15px;
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;

@@ -16,8 +16,6 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
-
-// Function to display the overlay message
 function showOverlayMessage() {
     overlay.style.display = 'flex';
 
