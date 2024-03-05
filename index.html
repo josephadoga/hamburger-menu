@@ -17,37 +17,118 @@
         <script src="./assets/script/app.js" defer></script>
     </head>
     <body>
-        <main>
-            <header>
-                <div class="container flex space-between">
-                    <h1>Stats</h1>
-                    <nav class="main-nav">
-                        <ul class="flex">
-                            <li>
-                                <a href="#">Projects</a>
-                            </li>
-                            <li>
-                                <a href="#">Blog</a>
-                            </li>
-                            <li>
-                                <a href="#">About us</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact us</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <nav class="hamburger-nav">
-                        <a href="#">Project</a>
-                        <a href="#">About Us</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Contact Us</a>
-                    </nav>
-                    <button class="menu-toggle">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
+        <header>
+            <div class="container flex space-between">
+                <h1>Stats</h1>
+                <nav class="main-nav">
+                    <ul class="flex">
+                        <li>
+                            <a href="#">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="hamburger-nav">
+                    <a href="#">Project</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact Us</a>
+                </nav>
+                <button class="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </header>
+        <main class="center">
+            <div class="overlay">
+                <div class="message">
+                    <p>To View Hamburger Menu</p>
+                    <p>Reduce the size of the page</p>
                 </div>
-            </header>
+            </div>
+            <div class="container">
+                <section>
+                    <div class="stats flex gap-20">
+                        <div class="users flex box gap-10">
+                            <div class="users-icon icon center">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <p><span>245</span> users</p>
+                        </div>
+                        <div class="articles flex box gap-10">
+                            <div class="articles-icon icon center">
+                                <i class="fa-solid fa-pen-nib"></i>
+                            </div>
+                            <p><span>74</span> articles</p>
+                        </div>
+                        <div class="messages flex box gap-10">
+                            <div class="messages-icon icon center">
+                                <i class="fa-solid fa-comment"></i>
+                            </div>
+                            <p><span>27</span> messages</p>
+                        </div>
+                        <div class="moderators flex box gap-10">
+                            <div class="moderators-icon icon center">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+                            <p><span>12</span> moderators</p>
+                        </div>
+                        <div class="visits flex box gap-10">
+                            <div class="visits-icon icon center">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <p><span>1125</span> visits</p>
+                        </div>
+                        <div class="tasks flex box gap-10">
+                            <div class="tasks-icon icon center">
+                                <i class="fa-solid fa-calendar"></i>
+                            </div>
+                            <p><span>4</span> tasks</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </main>
+        <footer>
+            <div class="container">
+                <div class="contact">
+                    <div class="list flex space-between">
+                        <div>
+                            <ul class="flex">
+                                <li>
+                                    <a href="mailto:company@email.com">
+                                        <i class="fa-regular fa-envelope"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <p>&copy; 2023 Joseph Adoga</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
