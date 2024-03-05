@@ -162,3 +162,6 @@ The Hamburger only works for a Phone Screen Size
 ### References
 Gemini AI by Google<br>
 REINTECH Media
+
+### View Site
+Click [here](https://josephadoga.github.io/hamburger-menu/) to view site
