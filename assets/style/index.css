@@ -84,3 +84,56 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+
+/*---------------------------------------------------------------*/
+/*-------------------Hamburger Menu------------------------------*/
+/*---------------------------------------------------------------*/
+
+
+/* Hide the navigation menu initially on larger screens */
+.hamburger-nav {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation link styles */
+.hamburger-nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hamburger menu button styles */
+.menu-toggle {
+    display: none; /* Initially hidden on larger screens */
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Show the navigation menu on smaller screens */
+@media (max-width: 768px) {
+    .hamburger-nav {
+        display: flex; /* Show navigation on smaller screens */
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 100%; /* Position below the header */
+        left: 0;
+        background-color: #fff;
+        transition: all 0.3s ease-in-out; /* Add smooth transition */
+    }
+
+    .hamburger-nav.active { /* Style for active navigation (open) */
+        top: 0; /* Slide down the menu on click */
+    }
+
+    .menu-toggle {
+        display: block; /* Show hamburger button on smaller screens */
+    }
+}
