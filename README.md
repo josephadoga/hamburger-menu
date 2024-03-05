@@ -2,12 +2,22 @@
 
 
 The Hamburger Menu is a user interface element in web development designed for mobile viewing. It provides a compact and accessible way for users to navigate and access the main headers of a website. Typically represented by three horizontal lines, clicking or tapping on the hamburger icon reveals a dropdown or slide-in menu, optimizing the user experience on smaller screens by conserving space and prioritizing essential navigation elements.
+<br>
+
+### Languages Used:
+![html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![css3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+<br>
+<br>
 
 
 ### What are we doing?
 
 In this tutorial, we will be adding the Hamburger Menu to an already made statistics page of a website.
 This includes an already made Header.
+<br>
+<br>
 
 
 ### 1. Create the Hamburger Menu Structure in HTML
@@ -26,6 +36,8 @@ This includes the Hamburger Navigation and the Hamburger Button which was gotten
     <i class="fa-solid fa-bars"></i>
 </button>
 ```
+<br>
+
 
 ### 2. Style the Hamburger Menu Button
 
@@ -45,6 +57,9 @@ We will do this with CSS.
 
 As you can see, the display-none styling sets the default to be initially hidden on larger screens.
 This is because Hamburger Menus are to be mainly used on Mobile View.
+<br>
+<br>
+
 
 
 ### 3. Style the Navigation Links
@@ -74,6 +89,9 @@ Next, we are going to style the Navigations Links that are going shown when the 
 ```
 As you can see also, the display-none styling of the Hamburger Navigations sets the 
 default to be initially hidden on larger screens.
+<br>
+<br>
+
 
 
 ### 4. Using JavaScript to toggle the menu 
@@ -88,6 +106,8 @@ menuToggle.addEventListener('click', () => {
     navigation.classList.toggle('active');
 });
 ```
+<br>
+
 
 ### 5. Using JavaScript to escape from Hamburger Menu
 
@@ -101,6 +121,8 @@ document.addEventListener('keydown', (event) => {
     }
 });
 ```
+<br>
+
 
 ### 6. Using CSS to toggle Responsiveness
 
@@ -135,3 +157,8 @@ The Hamburger only works for a Phone Screen Size
     }
 }
 ```
+<br>
+
+### References
+Gemini AI by Google<br>
+REINTECH Media
